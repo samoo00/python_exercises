@@ -1,8 +1,8 @@
 class Kume():
-    def __init__(self,isim,uzay,elemanlar = []):
+    def __init__(self,isim,elemanlar = []):
         list1 =[]
         self.isim = isim
-        self.uzay = uzay
+        self.uzay = type(elemanlar[0])
         for i in elemanlar:
             if i not in list1:
                 list1.append(i)
